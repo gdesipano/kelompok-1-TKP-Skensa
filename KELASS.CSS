@@ -1,0 +1,217 @@
+html, body {
+    background-color: #3F2195;
+    font-family: "Outfit", sans-serif;
+    background-image: url(bg.png);
+    margin: 0px;
+    padding: 0px;
+}
+
+    .navbar {
+        display: flex;
+        text-align: center;
+        align-self: center;
+        justify-content: space-between;
+        color: white;
+        font-family: "Outfit", sans-serif;
+        position: sticky;
+        top: 0;
+        margin-bottom: 70px;
+        background-color: #3F2195;
+    }
+
+    .iconskensa {
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+    }
+
+    #logos {
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+
+    #logo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    #pages {
+        display: flex;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    .page {
+        font-weight: bold;
+        color: #9A9A9A;
+        margin-left: 30px;
+    }
+
+    .page:hover {
+        color: white;
+        scale: 1.05;
+    }
+    
+    #current {
+        color: white;
+    }
+    
+    #logout:hover {
+        color: #FF0000;
+        scale: 1.05;
+    }
+
+    .data siswa-btn {
+        background-color: #3F2195;
+        color: #fff;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .data siswa-btn:hover {
+        background-color:#160052;
+    }
+.cContainer {
+    display: flex;
+    justify-content:center;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 544px;
+    height: 600px;
+    margin-top: 10px;
+    border-radius: 35px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+
+}
+
+.card:hover {
+    color: #000000;
+}
+
+.kelas {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #3F2195;
+    font-weight: 900;
+}
+
+.fotokelas {
+    width: 434px;
+    height: 289px;
+    border-radius: 15px;
+    
+}
+
+
+#tkp1, #tkp2, #tkp11, #tkp22 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3F2195;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+
+.card a:hover {
+    opacity: 90%;
+    color: #1b0065;
+    scale: 1.1;
+}
+
+.footer {
+    background-color: #2a185e;
+    color: #d3d3d3;
+    padding: 30px 20px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #d3d3d3;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+#skensa {
+    width: 100px;
+    height: 100px;
+    margin-left: 245px;
+    
+    
+}
+
+
+
